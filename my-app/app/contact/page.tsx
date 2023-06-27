@@ -2,7 +2,11 @@
 export default function contact(){
 return(
     <main>
-        <div>Please feel free to conact Me </div>
+        <div><p className="bg-blue">Email:cheruyoterick4@gmail.com</p>
+        <p>Tell:7949347464</p>
+        <p>Adress:Metalowiczna,09 Lublin</p> 
+        <p></p></div>
+        
     </main>
 )
 }

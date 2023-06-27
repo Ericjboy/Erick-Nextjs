@@ -16,3 +16,8 @@ export async function GET(){
     return NextResponse.json(data.records);
 
 }
+export async function POST(request: Request){
+    const responseData = await request.json();
+    console.log(responseData);
+    return NextResponse.json(responseData);
+}

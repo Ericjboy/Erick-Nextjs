@@ -53,6 +53,7 @@ export default function Movies(){
                 }
                 )}
             </div>
+            
         </main>
     )
     }
